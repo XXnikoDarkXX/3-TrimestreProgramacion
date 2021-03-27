@@ -39,7 +39,7 @@ public class Main {
  * @param dicci HashMap del diccionario
  * @return texto cambiado por el diccionario
  */
-    public static String buscarDiccionario(String text, HashMap<String, String> dicci) {
+    public static String buscarDiccionario(String text, HashMap<String, Stri    ng> dicci) {
         String textoOriginal = text;
         String[] palabras = text.split("\\W+");
         for (int i = 0; i < palabras.length; i++) {
